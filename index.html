@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/ESTILO.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Rubik+Microbe&family=Special+Elite&display=swap" rel="stylesheet">
+<link  rel="shorcut icon" href="ICO/favicon_io/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="BOXICON/boxicons-2.1.4/css/boxicons.css"
+
+</head>
+<body>
+    <header>
+        <!--Banner Hero -->
+    <!--clase contenedora img-banner-->
+    <div class="img-banner">
+        <!--clase contenedora-->
+        <div class="container">
+            <!--Nombre de la empresa o proyecto-->
+            <h1><span>La cocina de Lola</span></h1>
+            <!--clase para centrar el texto-->
+            <span class="cen">Degustación y recetas</span>
+            <!--clase para el boton contacto-->
+            <a class="boton-hero" href="About.html">Contactanos</a>
+    
+        </div>
+    </div> 
+        <nav>
+            <button class="nav-boton" onclick="accion()">Menú</button>
+            <i class='bx bxs-bowl-hot bx-tada' ></i>
+            <a class="nav-enlace desaparece" href="index.html">Inicio</a>
+            <a class="nav-enlace desaparece" href="About.html">Nosotros</a>
+            <a class="nav-enlace desaparece" href="Contact.html">Contacto</a>
+            </nav>
+        
+    </header>
+    
+
+    <menu>
+    <h2><img class="sopax" src="IMG/descarga.jpeg" alt="sopadecalabaza" width="50"<br> Sopa Crema de Calabaza <img class="sopax" src="IMG/descarga.jpeg" alt="sopadecalabaza" width="50"<br></h2>
+        
+        
+     </div>
+
+     <img class="sopalx" src="IMG/cocineroblanco.jpg" alt="sopadecalabazax" width="400"<br>
+     <img class="sopalix" src="IMG/Sopagifi.gif" alt="sopadecalabazaxin" width="450"<br>
+     <img class="sopalx2" src="IMG/cocineroblanco 2(copia).jpg" alt="sopadecalabazax2" width="400"<br>
+
+    <menu>
+    <a href="Receta.html">Receta</a>
+    </menu>
+    <footer><br>
+        <!--Sección pie de página-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="CSS/img/LogoLola.png" alt="Logo Lola">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                
+            </div>
+            <div class="box">
+                <h2>Seguinos</h2>
+                <div class="red-social">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"> <i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Calabaza Soup :-)</b> Todos los Derechos Reservados.</small>
+
+        </div>
+    </footer>
+    <script>
+        function accion() {
+            var ancla = document.getElementsByClassName('nav-enlace');
+            for (var i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+</body>
+</html>
